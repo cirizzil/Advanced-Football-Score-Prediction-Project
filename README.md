@@ -3,7 +3,7 @@ This machine learning project aims to predict football match outcomes with high 
 Project Overview
 Our predictive model harnesses the power of Random Forest Classification, applied to a rich dataset of Premier League matches. The model incorporates a wide array of features, including:
 
-#Team performance metrics
+# Team performance metrics
 Historical head-to-head statistics
 Venue information
 Temporal factors (date, time, season progression)
@@ -11,7 +11,7 @@ Advanced rolling averages of key performance indicators
 
 The primary objective is to predict match outcomes with a level of accuracy that surpasses traditional statistical methods, potentially offering valuable insights for sports analysts, bettors, and football enthusiasts alike.
 
-#Key Features
+# Key Features
 
 Sophisticated data preprocessing and feature engineering pipeline
 Implementation of an optimized Random Forest Classifier
@@ -19,16 +19,17 @@ Dynamic calculation of rolling averages for performance metrics
 Rigorous model evaluation using precision score and cross-validation techniques
 Flexibility to extend the model to other leagues and competitions
 
-#Development Environment
+# Development Environment
 This project was initially developed using Google Colab, showcasing its potential as a quick, accessible platform for data science projects. However, the code is fully compatible with Jupyter Notebook, allowing for easy local development and customization.
-Requirements
+
+# Requirements
 
 Python 3.x
 pandas
 scikit-learn
 Jupyter Notebook (optional, for local development)
 
-#Usage
+# Usage
 
 Ensure you have the required libraries installed:
 Copypip install pandas scikit-learn jupyter
@@ -44,15 +45,17 @@ Evaluate the model's performance
 
 
 
-#Key Functions
+# Key Functions
 
 rolling_averages(): Calculates sophisticated rolling averages for specified performance metrics
 make_predictions(): Orchestrates data splitting, model training, and prediction generation
 
-Model Performance
+# Model Performance
 The current iteration of the model achieves a precision score of approximately 0.625. While this demonstrates the model's potential, it also indicates opportunities for further refinement and optimization.
+![image](https://github.com/user-attachments/assets/93b63925-d72f-427b-8331-df544a7431c6)
+![image](https://github.com/user-attachments/assets/35c3a505-f0d8-41a8-aa15-adc98ec151fe)
 
-#Extensibility
+# Extensibility
 While this project initially focuses on Premier League data due to its wide availability and rich historical records, the model's architecture is designed for extensibility. With minimal modifications, it can be adapted to predict outcomes for other prestigious competitions such as:
 
 La Liga
@@ -67,7 +70,7 @@ Adjust feature engineering steps to accommodate league-specific metrics
 Retrain the model on the new dataset
 Fine-tune hyperparameters for optimal performance in the new context
 
-#Future Enhancements
+# Future Enhancements
 
 Implementation of advanced feature selection techniques to identify the most predictive variables
 Exploration of ensemble methods and deep learning models for improved accuracy
@@ -75,5 +78,5 @@ Integration of external factors such as player transfer data, injury reports, an
 Development of a real-time prediction system with automated data updates
 Creation of a user-friendly web interface for easy access to predictions
 
-#Contributing
+# Contributing
 We welcome contributions from data scientists, football analysts, and machine learning enthusiasts. Whether you're interested in improving the model's performance, adding new features, or extending its capabilities to other leagues, your input is valuable. Please feel free to submit pull requests or open issues for discussion.
